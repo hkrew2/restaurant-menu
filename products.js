@@ -6,7 +6,7 @@ const PRODUCTS = [
     "desc": "صدور دجاج، صوص باربيكيو، موزاريلا فاخرة",
     "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
     "isOffer": true,
-    "isHot": false,
+    "isHot": true,
     "sizes": [
       {
         "name": "وسط",
@@ -76,7 +76,7 @@ const PRODUCTS = [
     "cat": "مقبلات",
     "desc": "بطاطس كيرلي مقرمشة بالتوابل الخاصة",
     "img": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=400",
-    "isNew": true,
+    "isNew": false,
     "sizes": [
       {
         "name": "صغير",

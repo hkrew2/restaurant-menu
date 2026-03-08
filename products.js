@@ -35,7 +35,8 @@ const PRODUCTS = [
         "name": "دبل",
         "price": 170
       }
-    ]
+    ],
+    "isOffer": false
   },
   {
     "id": 4,
@@ -90,7 +91,7 @@ const PRODUCTS = [
     "id": 1772939912870,
     "name": "كوفته",
     "cat": "برجر",
-    "desc": "",
+    "desc": "كوفته مشويه",
     "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1772939978685_images.webp",
     "sizes": [
       {

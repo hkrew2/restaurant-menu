@@ -4,7 +4,7 @@ const PRODUCTS = [
     "name": "كبده",
     "cat": "بيتزا",
     "desc": "كبده ب خضار",
-    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1773008662680_download_(4).png",
+    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1773008973012.webp",
     "isOffer": false,
     "sizes": [
       {

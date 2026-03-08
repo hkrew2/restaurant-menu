@@ -49,7 +49,8 @@ const PRODUCTS = [
         "name": "عادي",
         "price": 80
       }
-    ]
+    ],
+    "isNew": true
   },
   {
     "id": 5,

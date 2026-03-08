@@ -6,7 +6,7 @@ const PRODUCTS = [
     "desc": "صدور دجاج، صوص باربيكيو، موزاريلا فاخرة",
     "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
     "isOffer": true,
-    "isHot": true,
+    "isHot": false,
     "sizes": [
       {
         "name": "وسط",

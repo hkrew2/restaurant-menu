@@ -1,98 +1,63 @@
 const PRODUCTS = [
-  // --- المشاوي ---
-
-  {
-    id: 2,
-    name: "شيش طاووق عالفحم",
-    cat: "مشاوي",
-    desc: "قطع دجاج متبلة بخلطة الحاتي السرية مشوية مع خضروات",
-    img: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400",
-    isOffer: true,
-    sizes: [
-      { name: "وجبة", price: 140, oldPrice: 170 },
-      { name: "ساندوتش", price: 75 }
-    ]
-  },
-  {
-    id: 3,
-    name: "ريش ضاني فاخرة",
-    cat: "مشاوي",
-    desc: "ريش غنم طازجة مشوية بتتبيلة الأعشاب والليمون",
-    img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+{
+    id: 1,
+    name: "بيتزا تشيكن باربيكيو",
+    cat: "بيتزا",
+    desc: "صدور دجاج، صوص باربيكيو، موزاريلا فاخرة",
+    img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    isOffer: true, 
     isHot: true,
     sizes: [
-      { name: "طلب فردي", price: 280 },
-      { name: "كيلو ريش", price: 850 }
+      { name: "وسط", price: 130}, // السعر الجديد 130 والقديم 150
+      { name: "كبير", price: 150  , oldPrice: 190 }
     ]
   },
   {
-    id: 4,
-    name: "دجاجة مشوية كاملة",
-    cat: "مشاوي",
-    desc: "دجاجة كاملة متبلة مشوية على الشواية الدوارة",
-    img: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400",
-    isOffer: true,
+    id: 2,
+    name: "برجر وحش المصنع",
+    cat: "برجر",
+    desc: "طبقتين لحم أنجوس، صوص جبنة، بيض، سلامي",
+    img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+    isHot: true,
     sizes: [
-      { name: "نص دجاجة", price: 110 },
-      { name: "دجاجة كاملة", price: 210, oldPrice: 240 }
+      { name: "سنجل", price: 120 },
+      { name: "دبل", price: 170 }
+    ]
+  },
+
+
+  {
+    id: 4,
+    name: "كريب ميكس جبن",
+    cat: "كريب",
+    desc: "شيدر، موتزاريلا، كيري، رومي، مع صوصات مميزة",
+    img: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=500", // رابط صورة كريب آخر
+    sizes: [
+      { name: "عادي", price: 80 }
     ]
   },
   {
     id: 5,
-    name: "طرب الحاتي",
-    cat: "مشاوي",
-    desc: "كفتة لحم ملفوفة بمنديل ضاني مشوية بدقة",
-    img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400",
-    isNew: true,
+    name: "وافل نوتيلا ميكس",
+    cat: "وافل",
+    desc: "وافل بلجيكي أصلي غرقان نوتيلا وفواكه",
+    img: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=400",
+     isHot: true,
     sizes: [
-      { name: "ربع كيلو", price: 150 },
-      { name: "نص كيلو", price: 280 }
-    ]
-  },
-
-  // --- المشروبات ---
-
-  {
-    id: 7,
-    name: "موهيتو بلو لاجون",
-    cat: "مشروبات",
-    desc: "مزيج منعش من الصودا، النعناع، الليمون ونكهة البلو كوراكاو",
-    img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400",
-    isNew: true,
-    sizes: [
-      { name: "كبير", price: 55 }
+      { name: "نص", price: 60 },
+      { name: "كامل", price: 110 }
     ]
   },
   {
-    id: 8,
-    name: "ميلك شيك أوريو",
-    cat: "مشروبات",
-    desc: "أوريو مطحون مع لبن ساقط وأيس كريم فانيليا",
-    img: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400",
+    id: 6,
+    name: "بطاطس كيرلي",
+    cat: "مقبلات",
+    desc: "بطاطس كيرلي مقرمشة بالتوابل الخاصة",
+    img: "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=400",
+        isNew: true,
     sizes: [
-      { name: "وسط", price: 65 },
-      { name: "كبير", price: 85 }
-    ]
-  },
-  {
-    id: 9,
-    name: "  Iced Coffee",
-    cat: "مشروبات",
-    desc: "إسبريسو مع حليب بارد وثلج وصوص كراميل",
-    img: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400",
-    sizes: [
-      { name: "عادي", price: 70 }
-    ]
-  },
-  {
-    id: 10,
-    name: "ليمون نعناع فريش",
-    cat: "مشروبات",
-    desc: "عصير ليمون طازج مع أوراق النعناع الأخضر المنعشة",
-    img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400",
-    sizes: [
-      { name: "وسط", price: 35 },
-      { name: "كبير", price: 50 }
+      { name: "صغير", price: 40 },
+      { name: "كبير", price: 65 }
     ]
   }
 ];

@@ -99,8 +99,10 @@ const PRODUCTS = [
       },
       {
         "name": "كبير",
-        "price": 90
+        "price": 90,
+        "oldPrice": 120
       }
-    ]
+    ],
+    "isOffer": true
   }
 ];

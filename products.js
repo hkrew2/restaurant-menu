@@ -1,4 +1,4 @@
-const PRODUCTS = [
+
   {
     "id": 1772934847682,
     "name": "ص",
@@ -12,4 +12,3 @@ const PRODUCTS = [
       }
     ]
   }
-];

@@ -92,7 +92,7 @@ const PRODUCTS = [
     "name": "كوفته",
     "cat": "برجر",
     "desc": "كوفته مشويه",
-    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1772939978685_images.webp",
+    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1772941261145_images_(1).webp",
     "sizes": [
       {
         "name": "صغير",

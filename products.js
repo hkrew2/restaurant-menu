@@ -1,5 +1,24 @@
 const PRODUCTS = [
   {
+    "id": 1773091870311,
+    "name": "برجر",
+    "cat": "برجر",
+    "desc": "نقتقهقو",
+    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1773092016765.webp",
+    "isOffer": false,
+    "sizes": [
+      {
+        "name": "عادي",
+        "price": 200
+      },
+      {
+        "name": "M",
+        "price": 300
+      }
+    ],
+    "isNew": true
+  },
+  {
     "id": 1,
     "name": "بيتزا تشيكن باربيكيو",
     "cat": "بيتزا",

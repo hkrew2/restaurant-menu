@@ -16,7 +16,7 @@ const PRODUCTS = [
         "price": 300
       }
     ],
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 1,

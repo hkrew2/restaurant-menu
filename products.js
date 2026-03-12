@@ -4,7 +4,7 @@ const PRODUCTS = [
     "name": "برجر",
     "cat": "برجر",
     "desc": "نقتقهقو",
-    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1773092016765.webp",
+    "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1773276463734.webp",
     "isOffer": false,
     "sizes": [
       {

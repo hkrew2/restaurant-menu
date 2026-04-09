@@ -3,7 +3,7 @@ const PRODUCTS = [
     "id": 1773091870311,
     "name": "برجر",
     "cat": "برجر",
-    "desc": "نقتقهقو",
+    "desc": "فراخ و طمامطم و بصل",
     "img": "https://raw.githubusercontent.com/hkrew2/restaurant-menu/main/images/img_1773276463734.webp",
     "isOffer": false,
     "sizes": [

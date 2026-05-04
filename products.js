@@ -11,6 +11,10 @@ const PRODUCTS = [
       {
         "name": "عادي",
         "price": 11
+      },
+      {
+        "name": "كبير",
+        "price": 33
       }
     ]
   },
